@@ -1,6 +1,6 @@
 {
-    "name": "freshbitsweb/slack-error-notifier",
-    "description": "Send a message to a Slack channel when error occurs in your Laravel Application",
+    "name": "yurastrizhik/slack-error-notifier",
+    "description": "Send a message to a Slack channel when error occurs in your Laravel Application, forked from freshbitsweb/slack-error-notifier",
     "require": {
         "php": ">=7.0",
         "illuminate/support": "5.5.*",
@@ -16,13 +16,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Freshbitsweb\\SlackErrorNotifier\\": "src/"
+            "yurastrizhik\\SlackErrorNotifier\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Freshbitsweb\\SlackErrorNotifier\\SlackErrorNotifierServiceProvider"
+                "yurastrizhik\\SlackErrorNotifier\\SlackErrorNotifierServiceProvider"
             ]
         }
     }
