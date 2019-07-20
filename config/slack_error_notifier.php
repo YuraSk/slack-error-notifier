@@ -5,6 +5,8 @@ return [
 
     'webhook_url' => env('SLACK_WEBHOOK_URL', ''),
 
+    'channel' => env('SLACK_ERRORS_CHANNEL', null),
+
     'add_memory_usage' => true,
 
     'add_request_headers' => true,
