@@ -16,13 +16,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "yurastrizhik\\SlackErrorNotifier\\": "src/"
+            "YuraStrizhik\\SlackErrorNotifier\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "yurastrizhik\\SlackErrorNotifier\\SlackErrorNotifierServiceProvider"
+                "YuraStrizhik\\SlackErrorNotifier\\SlackErrorNotifierServiceProvider"
             ]
         }
     }
